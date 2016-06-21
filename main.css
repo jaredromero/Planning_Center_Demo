@@ -1,0 +1,170 @@
+
+html {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+    font: 18px/26px "Trebuchet MS", Helvetica, sans-serif;
+    color: #828282;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+a,
+a:visited
+ { 
+    color: #20a1d4; 
+    text-decoration: none;
+}
+
+.button {
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    color: #828282;
+    transition: all 0.2s ease;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* MAIN SECTION
+========================*/
+section.fund-modal {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* HEADER
+========================*/
+header.need {
+    background: #424242;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    position: relative;
+    letter-spacing: 2px;
+}
+#amount-needed {
+    font-weight: bold;
+}
+header.need::after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(130, 130, 130, 0);
+    border-top-color: #424242;
+    border-width: 10px;
+    margin-left: 130px;
+}
+
+/* CONTENT
+========================*/
+.content__wrapper {
+    border: 1px solid #424242;
+}
+.time-bar {
+    width: 100%;
+    border-bottom: 1px solid #424242;
+    height: 20px;
+}
+.time-bar__fill {
+    float: left;
+    background: #ef5f3c;
+    width: 75%;
+    height: 20px;
+    display: block;
+}
+.content__text {
+    padding: 0 30px;
+    line-height: 1.5;
+}
+.days-left {
+    color: #ef5f3c;
+    font-weight: bold;
+}
+#num-donors {
+    font-weight: bold;
+}
+.donate__wrapper {
+    padding: 0 30px;
+}
+.donate__input {
+    border: 1px inset #ccc;
+    border-radius: 5px;
+    padding: 10px 5px; 
+    color: #828282;
+    width: 45%;
+    float: left;
+}
+.donate__input input {
+    border: 0;
+    color: #000;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+input[type="submit"] {
+    font-size: 20px;
+}
+
+.button__give {
+    color: #fff;
+    background: #1cbc2c;
+    float: right;
+    width: 45%;
+}
+.button__give:hover {
+    background: #19ab28;
+}
+
+.why-text {
+    padding: 0 30px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.button__save {
+    width: 45%;
+    float: left;
+}
+.button__tell {
+    width: 45%;
+    float: right;
+}
+.button__save:hover, .button__tell:hover {
+    background: #e3e3e3;
+}
+
+
+
+
+
+
+
+
